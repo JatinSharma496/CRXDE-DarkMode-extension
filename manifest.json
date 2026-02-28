@@ -1,0 +1,44 @@
+{
+    "manifest_version": 3,
+    "name": "AEM CRXDE Lite - Hyper Dark Pro",
+    "version": "2.0",
+    "description": "A premium VS Code-inspired dark theme for AEM CRXDE Lite with full UI coverage.",
+    "permissions": [
+        "storage"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/crx/de/index.jsp*",
+                "*://*/crx/de/",
+                "*://*/crx/packmgr/index.jsp*",
+                "*://*/crx/packmgr/"
+            ],
+            "css": [
+                "styles/content.css"
+            ],
+            "js": [
+                "scripts/content.js"
+            ],
+            "run_at": "document_start"
+        }
+    ],
+    "action": {
+        "default_title": "AEM Dark Mode"
+    },
+    "host_permissions": [
+        "*://*/crx/de/*",
+        "*://*/crx/packmgr/*"
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "assets/CRXDE_Header.png",
+                "assets/icons/*.png"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project / IDE files
+.vscode/
+.idea/
+.agent/
+.gemini/
+
+# Extension packaging
+*.crx
+*.zip
+*.pem
+
+# Backups and temp files
+*.tmp
+*.bak
+*~

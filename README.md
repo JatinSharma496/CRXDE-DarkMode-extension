@@ -1,8 +1,8 @@
-# AEM CRXDE Lite - Hyper Dark Pro
+![alt text](image.png)# AEM CRXDE Lite - Hyper Dark Pro
 
 A premium, high-performance dark theme for AEM CRXDE Lite and Package Manager. Designed with a modern "Cyber Neon" aesthetic, featuring glassmorphism, fluid animations, and high-readability typography.
 
-![CRXDE Lite Dark Mode](https://via.placeholder.com/800x450.png?text=CRXDE+Lite+Hyper+Dark+Pro)
+![CRXDE Lite Dark Mode](/image.png)
 
 ## 🚀 Features
 
@@ -38,11 +38,9 @@ The theme will apply automatically on page load. If you've just installed or upd
 - `manifest.json`: Configuration for the Chrome extension.
 - `content.css`: The master "Antigravity" theme stylesheet.
 - `content.js`: Dynamic path resolver for internal extension assets.
-- `CRXDE_Header.png`: The themed logo used on the Welcome page.
+
 
 ## 📄 License
 
 This project is for educational and personal use. All original AEM styles and branding are trademarks of Adobe Systems Incorporated.
 
----
-*Created with ❤️ by Antigravity*
