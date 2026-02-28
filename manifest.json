@@ -1,4 +1,6 @@
 {
+  "name": "CRXDE Enhancer",
+  "version": "1.0.0",
     "manifest_version": 3,
     "name": "AEM CRXDE Lite - Hyper Dark Pro",
     "version": "2.0",
