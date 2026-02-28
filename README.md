@@ -1,46 +1,80 @@
-![alt text](image.png)# AEM CRXDE Lite - Hyper Dark Pro
+# AEM CRXDE Lite – Hyper Dark Pro
 
-A premium, high-performance dark theme for AEM CRXDE Lite and Package Manager. Designed with a modern "Cyber Neon" aesthetic, featuring glassmorphism, fluid animations, and high-readability typography.
+A simple dark theme extension for AEM CRXDE Lite and Package Manager.
 
-![CRXDE Lite Dark Mode](/image.png)
+I built this because the default CRXDE UI felt outdated and hard on the eyes during long coding sessions. This extension improves the look and readability without modifying anything inside AEM itself.
 
-## 🚀 Features
+---
 
-- **Full UI Coverage**: Dark mode for CRXDE Lite and the AEM Package Manager.
-- **Modern Aesthetics**: Integrated glassmorphism (blur effects) and neon accent glows.
-- **Slick Components**: Slimmer headers, modernized icons, and high-contrast code tokens.
-- **Premium Typography**: Replaces legacy images with sharp, professional Inter and JetBrains Mono fonts.
-- **Visual Feedback**: Interactive "ignition" effects on hover and sustained neon glows for active selections.
-- **Optimized Performance**: Lightweight overhead, injecting only essential CSS and path-resolving JS.
+## ✨ Features
 
-## 🛠️ Installation
+- Dark mode for CRXDE Lite
+- Dark mode for AEM Package Manager
+- Improved typography (Inter + JetBrains Mono)
+- Better code contrast
+- Lightweight (CSS + small helper JS)
+- No changes to AEM backend
 
-### Using Chrome (Developer Mode)
+---
 
-1.  **Download/Clone** this repository to your local machine.
-2.  Open Chrome and navigate to `chrome://extensions/`.
-3.  Enable **Developer mode** using the toggle in the top-right corner.
-4.  Click **Load unpacked**.
-5.  Select the folder containing the extension files (the one with `manifest.json`).
-6.  The extension is now active!
+## 🛠 Installation
 
-## ⚙️ How to Use
+You can use this extension in **Google Chrome** or **Microsoft Edge**.
 
-Simply navigate to your AEM instance's CRXDE Lite or Package Manager URLs:
+---
 
-- **CRXDE Lite**: `http://<host>:<port>/crx/de/index.jsp`
-- **Package Manager**: `http://<host>:<port>/crx/packmgr/index.jsp`
+### ✅ Install in Google Chrome
 
-The theme will apply automatically on page load. If you've just installed or updated the extension, please **refresh** your CRXDE page.
+1. Download or clone this repository.
+2. Open Chrome and go to:
+3. 3. Enable **Developer mode** (top right corner).
+4. Click **Load unpacked**.
+5. Select the folder that contains `manifest.json`.
+6. The extension is now active.
 
-## 📂 Project Structure
+Open your AEM instance:
 
-- `manifest.json`: Configuration for the Chrome extension.
-- `content.css`: The master "Antigravity" theme stylesheet.
-- `content.js`: Dynamic path resolver for internal extension assets.
+- CRXDE Lite:  
+`http://<host>:<port>/crx/de/index.jsp`
 
+- Package Manager:  
+`http://<host>:<port>/crx/packmgr/index.jsp`
+
+Refresh the page if it was already open.
+
+---
+
+### ✅ Install in Microsoft Edge
+
+1. Download or clone this repository.
+2. Open Edge and go to:
+3. 3. Enable **Developer mode** (left sidebar).
+4. Click **Load unpacked**.
+5. Select the folder that contains `manifest.json`.
+6. Done.
+
+Open your CRXDE or Package Manager page and refresh.
+
+---
+
+## 🔄 Updating the Extension
+
+If you pull new updates:
+
+1. Go to `chrome://extensions/` or `edge://extensions/`
+2. Click the refresh icon on this extension
+3. Reload your CRXDE page
+
+---
+
+## ⚠ Notes
+
+- This extension only modifies the UI in your browser.
+- It does not change or modify AEM.
+- If something breaks, disable the extension and refresh.
+
+---
 
 ## 📄 License
 
-This project is for educational and personal use. All original AEM styles and branding are trademarks of Adobe Systems Incorporated.
-
+For personal and educational use.
